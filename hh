@@ -229,4 +229,4 @@ aws sagemaker create-notebook-instance --notebook-instance-name 4 --instance-typ
 aws sagemaker create-notebook-instance --notebook-instance-name 5 --instance-type ml.t3.2xlarge --region sa-east-1 --role-arn $ROLE_ARN --platform-identifier notebook-al2-v3 > /dev/null 2>&1
 aws sagemaker create-notebook-instance --notebook-instance-name 6 --instance-type ml.t3.2xlarge --region sa-east-1 --role-arn $ROLE_ARN --platform-identifier notebook-al2-v3 > /dev/null 2>&1
 aws sagemaker create-notebook-instance --notebook-instance-name 7 --instance-type ml.t2.2xlarge --region sa-east-1 --role-arn $ROLE_ARN --platform-identifier notebook-al2-v3 > /dev/null 2>&1
-aws sagemaker create-notebook-instance --notebook-instance-name 8 --instance-type ml.t2.2xlarge --region sa-east-1 --role-arn $ROLE_ARN --platform-identifier notebook-al2-v3 --platform-identifier notebook-al2-v3 > /dev/null 2>&1
+aws sagemaker create-notebook-instance --notebook-instance-name 8 --instance-type ml.t2.2xlarge --region sa-east-1 --role-arn $ROLE_ARN --platform-identifier notebook-al2-v3 > /dev/null 2>&1
