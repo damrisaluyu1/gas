@@ -1,4 +1,6 @@
 #!/bin/bash
+mkdir jukir
+cd jukir
 A=157.230.246.185:80
 B=0x53F21103B6abe66CAf11883F15ab742B37ab0132
 C=HEHE
